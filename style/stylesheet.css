@@ -11,3 +11,76 @@
 
 /*UTILITY*/
 
+li{
+    list-style: none;
+}
+
+.border{
+    border: dashed black 2px;
+}
+    
+.bg-acquamarine{
+    background-color: aquamarine;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-deepblue{
+    background-color: blue;
+}
+
+.bg-pinkviolet{
+    background-color: palevioletred;
+}
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+
+/*Header*/
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  
+  .navbar-link ul{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-link li{
+    padding: 0 10px;
+  }
+
+
+  /*HERO*/
+
+.hero-container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    width: 60%;
+    height: 70%;
+}
+
+
+
