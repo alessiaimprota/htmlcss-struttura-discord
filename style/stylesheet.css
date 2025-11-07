@@ -47,6 +47,10 @@ li{
     background-color: lightblue;
 }
 
+.bg-green {
+    background-color: green;
+}
+
 
 /*Header*/
 
@@ -102,7 +106,20 @@ li{
 
 .pink-block{
     height: 100%;
-    flex-basis: 500px;
+    flex-basis: 400px;
 }
 
+/*LAST CONTAINER*/
+
+.container3 {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-block{
+    height: 80%;
+    flex-basis: 1200px;
+}
 
