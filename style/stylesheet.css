@@ -171,3 +171,14 @@ footer{
     flex-basis: 25%;
 }
 
+.footer-navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.footer-navbar-btn{
+    display: flex;
+    justify-content: space-between;
+    
+}
