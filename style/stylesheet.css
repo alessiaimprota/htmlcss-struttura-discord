@@ -61,10 +61,7 @@ li{
   .navbar-link ul{
     display: flex;
     justify-content: space-between;
-  }
-
-  .navbar-link li{
-    padding: 0 10px;
+    gap: 20px;
   }
 
 
@@ -82,5 +79,30 @@ li{
     height: 70%;
 }
 
+ /* MAIN CONTAINERS*/
+
+.block{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 , .container2{
+    height: 90%;
+    width: 80%;
+    display: flex;
+}
+
+
+.blue-block{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.pink-block{
+    height: 100%;
+    flex-basis: 500px;
+}
 
 
