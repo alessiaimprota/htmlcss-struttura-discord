@@ -76,6 +76,14 @@ li{
     gap: 20px;
   }
 
+  .navbar-logo{
+    flex-grow: 1;
+  }
+
+  .navbar-login{
+    flex-grow: 1;
+    text-align: end;
+  }
 
   /*HERO*/
 
@@ -174,13 +182,13 @@ footer{
 .footer-navbar{
     width: 80%;
     margin: 0 auto;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 
 .footer-navbar-btn{
     display: flex;
     justify-content: space-between;
-    
-}
+    align-items: flex-end;
+    }
 
